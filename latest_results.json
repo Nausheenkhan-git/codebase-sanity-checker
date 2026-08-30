@@ -1,0 +1,74 @@
+{
+  "repo_url": "https://github.com/realpython/python-guide.git",
+  "structure": {
+    "files": [
+      ".gitignore",
+      ".travis.yml",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "make.bat",
+      "Makefile",
+      "Readme.rst",
+      "requirements-to-freeze.txt",
+      "requirements.txt",
+      "runtime.txt",
+      "TODO.rst"
+    ],
+    "directories": [
+      "docs",
+      "ext"
+    ],
+    "python_files": 2,
+    "readme_preview": "",
+    "structure_summary": "2 directories, 12 files, 2 Python files"
+  },
+  "tests": {
+    "status": "failed",
+    "output": "============================= test session starts =============================\nplatform win32 -- Python 3.14.7, pytest-7.4.3, pluggy-1.6.0 -- C:\\Users\\Houseedge\\codebase-sanity-checker\\venv\\Scripts\\python.exe\ncachedir: .pytest_cache\nrootdir: C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\nplugins: anyio-4.14.2\ncollecting ... collected 0 items\n\n============================ no tests ran in 0.07s ============================\n",
+    "error": ""
+  },
+  "linting": {
+    "issues": [
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\_themes\\flask_theme_support.py:13:9: E265 block comment should start with '# '",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\_themes\\flask_theme_support.py:15:61: E261 at least two spaces before inline comment",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\_themes\\flask_theme_support.py:18:53: E261 at least two spaces before inline comment",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\_themes\\flask_theme_support.py:65:53: E261 at least two spaces before inline comment",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\_themes\\flask_theme_support.py:77:53: E261 at least two spaces before inline comment",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\conf.py:26:1: E265 block comment should start with '# '",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\conf.py:44:1: E265 block comment should start with '# '",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\conf.py:67:1: E265 block comment should start with '# '",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\conf.py:71:1: E265 block comment should start with '# '",
+      "C:\\Users\\HOUSEE~1\\AppData\\Local\\Temp\\tmp8hxg3hnk\\docs\\conf.py:73:1: E265 block comment should start with '# '"
+    ],
+    "count": 44
+  },
+  "dependencies": {
+    "dependencies": [
+      "alabaster==0.7.11",
+      "Babel==2.6.0",
+      "certifi==2018.4.16",
+      "chardet==3.0.4",
+      "docutils==0.14",
+      "idna==2.7",
+      "imagesize==1.0.0",
+      "Jinja2==2.10",
+      "MarkupSafe==1.1.1",
+      "packaging==17.1",
+      "Pygments==2.2.0",
+      "pyparsing==2.2.0",
+      "pytz==2018.5",
+      "requests==2.19.1",
+      "six==1.11.0",
+      "snowballstemmer==1.2.1",
+      "Sphinx==1.7.6",
+      "sphinx-sitemap==0.3.1",
+      "sphinxcontrib-websupport==1.1.0",
+      "urllib3==1.23"
+    ],
+    "has_setup_py": false,
+    "has_pyproject": false,
+    "total": 20
+  },
+  "mode": "baseline"
+}
