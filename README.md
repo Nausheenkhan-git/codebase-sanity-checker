@@ -2,7 +2,6 @@
 An agentic workflow for automated codebase health assessment.
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ##  Table of Contents
 - [Problem Statement](#problem-statement)
@@ -257,7 +256,7 @@ Codebase Sanity Checker
 │   ├── reports/*.md                # Markdown reports
 │   └── latest_results.json         # JSON data
 └── requirements.txt                # Python dependencies
-
+```
 
 ## Future Work
 
